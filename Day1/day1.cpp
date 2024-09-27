@@ -8,7 +8,6 @@ using namespace std;
 class calculationParser {
 private:
     vector<string> stringVector;
-    vector<int> calcTotal;
 
 public:
     void readFile(const string &filename) {
